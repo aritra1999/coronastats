@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+html{
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+/* Map and it's elements */
+#map{
+    /*height: 100vh;*/
+    /*width: 100vw;*/
+    position: relative;
+    top: 10%;
+    left: 20%;
+
+}
+#svg2{
+    min-height: 80vh;
+    min-width: 50vw;
+}
+path:hover{
+    fill: red;
+}
+path.on {
+  fill: red;
+}
+
+.list-of-states{
+    list-style: none;
+}
+.list-of-states li.on {
+    display: block;
+    color: white;
+    font-weight: bold;
+
+}
+.list-of-states h3{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    background: #120a8f;
+    padding: 15px;
+
+}
+
+.states{
+    padding: 20px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.state{
+    display: none;
+    box-shadow: 2px 2px 8px 7px #283d5d17;
+}
+.details{
+    color: black;
+    padding: 20px 20px 50px 20px;
+}
